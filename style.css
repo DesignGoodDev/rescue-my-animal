@@ -1,0 +1,425 @@
+
+
+/* @font-face {
+    font-family: NunitoSans;
+    src: url(/fonts/Nunito_Sans/NunitoSans-Regular.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: NunitoSans-Bold;
+    src: url(/fonts/Nunito_Sans/NunitoSans-Bold.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: NunitoSans-BoldItalic;
+    src: url(/fonts/Nunito_Sans/NunitoSans-BoldItalic.ttf) format("truetype")
+} */
+
+
+/* C O L O R S */
+.text-white {
+  color: #FFF;
+}
+.bg-light-gray {
+  background-color: #F6F6F6;
+}
+.bg-white {
+  background-color: #FFF;
+}
+
+/* T Y P E */
+body {
+  font-size: 16px;
+  line-height: 1.625;
+}
+
+h1, .h1 {
+  font-family: NunitoSans-Bold, sans-serif;
+  font-size: 26px;
+  line-height: 1.25;
+  margin-bottom: 24px;
+}
+
+h2, .h2 {
+  font-family: NunitoSans-Bold, sans-serif;
+  font-size: 24px;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+strong {
+  font-family: NunitoSans-Bold, sans-serif;
+}
+
+.lead {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  h1, .h1 {
+      font-size: 36px;
+  }
+  h2, .h2 {
+      font-size: 30px;
+  }
+}
+
+/* B U T T O N S */
+.btn-default, .btn-primary, .btn-success, .btn-group-lg>.btn, .btn-group-sm>.btn, .btn-group-xs>.btn, .btn-lg, .btn-sm, .btn-xs {
+  border: 0;
+  text-shadow: none;
+  background-image: none;
+  box-shadow: none;
+  border-radius: 5px;
+  transition: background-color 250ms ease, color 250ms ease;
+}
+.inputfile+label.btn-primary {
+  background-color: #1ebcb0;
+}
+.inputfile+label.btn-primary:hover {
+  background-color: #16877f;
+}
+.btn-large {
+  padding: 18px 28px;
+}
+.link--cta {
+  display: inline-block;
+  line-height: 1;
+  color: #1EBCB0;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #1EBCB0;
+  transition: color 250ms ease, border-color 250ms ease;
+}
+.link--cta:hover {
+  color: #137a72;
+  border-bottom: 2px solid #137a72;
+  text-decoration: none;
+}
+
+/* S P A C I N G  H E L P E R S */
+.pt-20,.py-20 {padding-top: 20px;}
+.pb-20,.py-20 {padding-bottom: 20px;}
+
+.pt-40,.py-40 {padding-top: 40px;}
+.pb-40,.py-40 {padding-bottom: 40px;}
+
+.pt-60,.py-60 {padding-top: 60px;}
+.pb-60,.py-60 {padding-bottom: 60px;}
+
+.pt-80,.py-80 {padding-top: 80px;}
+.pb-80,.py-80 {padding-bottom: 80px;}
+
+.mt-20,.my-20 {margin-top: 20px;}
+.mb-20,.my-20 {margin-bottom: 20px;}
+
+.mt-40,.my-40 {margin-top: 40px;}
+.mb-40,.my-40 {margin-bottom: 40px;}
+
+.mt-60,.my-60 {margin-top: 60px;}
+.mb-60,.my-60 {margin-bottom: 60px;}
+
+.mt-80,.my-80 {margin-top: 80px;}
+.mb-80,.my-80 {margin-bottom: 80px;}
+
+/* G L O B A L */
+#formset-container .tab-content {
+  margin-bottom: 0;
+}
+#formset-container .form {
+  padding: 0;
+}
+#content {
+  /* padding-left: 0; */
+  /* padding-right: 0; */
+}
+.field-container {
+  /* margin-left: -15px; */
+  /* margin-right: -15px; */
+}
+.field-container .form-group {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row-position {
+  padding-bottom: 24px;
+}
+
+.content .col-md-12 {
+  margin-top: 0;
+}
+.content .tab-pane.active,
+.content .tab-pane {
+  padding: 0;
+}
+.tab-pane .row .section .section-header {
+  /* maybe just do this on the home page */
+  /* padding: 0; */
+  /* margin: 0; */
+}
+
+.form > .pull-right {
+  margin-top: 20px;
+}
+
+.well {
+  box-shadow: none;
+  background: transparent;
+  /* border: 0; */
+}
+#formset-container .tab-content .row {
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}
+#formset-container .tab-content .row .row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 480px) and (min-device-width: 320px) and (orientation: portrait) {
+  #formset-container .tab-content .row {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+  }
+}
+@media (min-width: 768px) {
+  #formset-container .tab-content .row {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+  }
+}
+
+/*
+@media (min-width: 992px) {
+  .container-sm {
+      width: 840px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-sm {
+      width: 960px;
+  }
+} */
+
+/* N A V */
+.navbar {
+  min-height: 0;
+}
+.navbar-header {
+  border-bottom: 1px solid #DBDBDB;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-header:after, .navbar-header:before {
+  display: none;
+}
+.navbar-collapse {
+  max-height: none;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  border: 0;
+  border-bottom: 1px solid #DBDBDB;
+  overflow-x: hidden;
+  box-shadow: none;
+  padding: 0;
+}
+.navbar-nav {
+  margin: 0;
+}
+.navbar-brand {
+  flex: 0 1 auto;
+  height: 54px;
+  width: 200px;
+}
+.navbar-form {
+  margin: 0;
+  border-bottom: 0;
+  box-shadow: none;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #424242;
+  text-shadow: none;
+  transition: color 250ms ease;
+}
+.nav.navbar-nav.top-nav li.active,
+.nav.navbar-nav.top-nav li.active:hover {
+  border-bottom: 0;
+}
+.nav.navbar-nav.top-nav li.active a {
+  color: #424242;
+}
+.nav.navbar-nav.top-nav li.active:hover a {
+  color: #1EBCB0;
+}
+.nav.navbar-nav.top-nav li:hover ul a,
+.nav.navbar-nav.top-nav li.active:hover ul a {
+  color: #424242;
+}
+.navbar-toggle {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: #1EBCB0;
+}
+.dropdown-menu {
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+
+@media (min-width: 768px) {
+  .navbar-header {
+      border: 0;
+      width: auto;
+      display: inline-block;
+  }
+  .navbar-header:after, .navbar-header:before {
+      display: table;
+  }
+  .navbar .navbar-brand {
+      margin-top: 8px;
+  }
+  .navbar-collapse.collapse {
+      position: static;
+  }
+  .top-nav {
+      padding-left: 20px;
+  }
+  .navbar-nav > li {
+      margin: 0 10px;
+  }
+  .nav.navbar-nav.top-nav li.active {
+      color: #424242;
+      border-bottom: 5px solid #1EBCB0;
+  }
+  .nav.navbar-nav.top-nav li.active:hover {
+      border-bottom: 5px solid #1EBCB0;
+  }
+  .navbar-inverse .navbar-nav > li.active:hover a,
+  .navbar-inverse .navbar-nav > li:hover a {
+      color: #1EBCB0;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+      padding: 24px 0;
+  }
+  .navbar-right {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  .navbar-nav.navbar-right:last-child {
+      margin-right: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+      padding-right: 0;
+  }
+}
+
+/* T A B S */
+.nav-tabs > li > a {
+  /* border-bottom: 1px solid rgba(59, 59, 59); */
+}
+
+/* M E D I A */
+img {
+  max-width: 100%;
+}
+.image--round-corners {
+  border-radius: 5px;
+}
+
+/* H O M E P A G E */
+.hero {
+  background-image: url(https://rescuemyanimal-training.communityos.org/document-view/event/key/repositorydownloadajax/id/93/cid/615/fid/112);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* margin-top: -20px; */
+  /* margin-left: -15px; */
+  /* margin-right: -15px; */
+}
+.row--offset-photo {
+  border-top: 8px solid #FFC229;
+}
+.row--offset-photo .image-side {
+  margin-bottom: -60px;
+  right: -8.33333333%;
+  right: calc(-8.33333333% - 15px);
+}
+.row--offset-photo .text-side {
+  padding: 24px;
+}
+.row--offset-reverse .image-side {
+  right: 0;
+  left: -8.33333333%;
+  left: calc(-8.33333333% - 15px);
+}
+.highlight-bar {
+  margin-bottom: 60px;
+  position: relative;
+  z-index: 0;
+}
+.highlight-bar::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 32px;
+  left: 0;
+  bottom: -16px;
+  background-color: #FFF;
+  z-index: -1;
+}
+.highlight-bar--gray::before {
+  background-color: #F6F6F6;
+}
+.step {
+  margin-bottom: 20px;
+}
+.step-image {
+  max-width: 224px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .row--offset-photo .text-side {
+      padding: 60px;
+  }
+  .row--offset-photo .image-side {
+      right: -8.33333333%;
+  }
+  .row--offset-reverse .image-side {
+      left: -8.33333333%;
+  }
+  .highlight-bar {
+      max-width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .highlight-bar--left {
+      max-width: 80%;
+      width: auto;
+      margin-left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .row--offset-photo .text-side {
+      padding: 80px 20px 80px 80px;
+  }
+  .row--offset-reverse .text-side {
+      padding: 80px 80px 80px 20px;
+  }
+  .row--offset-photo .image-side {
+      margin-top: -40px;
+  }
+}
