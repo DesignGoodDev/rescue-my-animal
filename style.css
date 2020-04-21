@@ -292,10 +292,10 @@ strong {
 .footer li a:hover {
     opacity: 0.8;
 }
-.footer li a.btn {
+.footer a.btn {
     text-decoration: none;
 }
-.footer li a.btn:hover {
+.footer a.btn:hover {
     opacity: 1;
 }
 
