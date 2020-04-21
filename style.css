@@ -286,7 +286,7 @@ strong {
 .footer li a {
     color: #fff;
     text-decoration: underline;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 250ms ease;
 }
 .footer li a:hover {
