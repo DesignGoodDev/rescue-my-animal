@@ -298,6 +298,9 @@ strong {
 .footer a.btn:hover {
     opacity: 1;
 }
+.footer hr {
+  margin: 10px 0 20px;
+}
 
 /* T A B S */
 /* .nav-tabs > li > a {
