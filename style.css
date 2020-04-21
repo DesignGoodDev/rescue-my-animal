@@ -38,10 +38,10 @@ strong {
 }
 @media (min-width: 768px) {
   h1, .h1 {
-      font-size: 36px;
+    font-size: 36px;
   }
   h2, .h2 {
-      font-size: 30px;
+    font-size: 30px;
   }
 }
 
@@ -191,6 +191,8 @@ strong {
   box-shadow: none;
 }
 .navbar-inverse .navbar-nav > li > a {
+  font-size: 14px;
+  line-height: 1.42857143;
   color: #424242;
   text-shadow: none;
   transition: color 250ms ease;
@@ -271,7 +273,7 @@ strong {
 
 /* F O O T E R */
 .footer {
-    background-color: #262525
+    background-color: #262525;
     color: #fff;
 }
 .footer ul {
