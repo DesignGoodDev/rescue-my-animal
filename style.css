@@ -269,6 +269,34 @@ strong {
   }
 }
 
+/* F O O T E R */
+.footer {
+    background-color: #262525
+    color: #fff;
+}
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+.footer li {
+    margin-bottom: 10px;
+}
+.footer li a {
+    color: #fff;
+    text-decoration: underline;
+    opacity: 0;
+    transition: opacity 250ms ease;
+}
+.footer li a:hover {
+    opacity: 0.8;
+}
+.footer li a.btn {
+    text-decoration: none;
+}
+.footer li a.btn:hover {
+    opacity: 1;
+}
+
 /* T A B S */
 /* .nav-tabs > li > a {
   border-bottom: 1px solid rgba(59, 59, 59);
