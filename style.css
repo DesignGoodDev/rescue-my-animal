@@ -1,21 +1,3 @@
-
-
-/* @font-face {
-    font-family: NunitoSans;
-    src: url(/fonts/Nunito_Sans/NunitoSans-Regular.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: NunitoSans-Bold;
-    src: url(/fonts/Nunito_Sans/NunitoSans-Bold.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: NunitoSans-BoldItalic;
-    src: url(/fonts/Nunito_Sans/NunitoSans-BoldItalic.ttf) format("truetype")
-} */
-
-
 /* C O L O R S */
 .text-white {
   color: #FFF;
@@ -32,34 +14,28 @@ body {
   font-size: 16px;
   line-height: 1.625;
 }
-
 h1, .h1 {
-  font-family: NunitoSans-Bold, sans-serif;
+  font-family: NunitoSans-Black, sans-serif;
   font-size: 26px;
   line-height: 1.25;
   margin-bottom: 24px;
 }
-
 h2, .h2 {
-  font-family: NunitoSans-Bold, sans-serif;
+  font-family: NunitoSans-Black, sans-serif;
   font-size: 24px;
   line-height: 1.25;
   margin-bottom: 20px;
 }
-
 p {
   margin-bottom: 16px;
 }
-
 strong {
   font-family: NunitoSans-Bold, sans-serif;
 }
-
 .lead {
   font-size: 20px;
   line-height: 1.5;
 }
-
 @media (min-width: 768px) {
   h1, .h1 {
       font-size: 36px;
@@ -70,14 +46,14 @@ strong {
 }
 
 /* B U T T O N S */
-.btn-default, .btn-primary, .btn-success, .btn-group-lg>.btn, .btn-group-sm>.btn, .btn-group-xs>.btn, .btn-lg, .btn-sm, .btn-xs {
+/*.btn-default, .btn-primary, .btn-success, .btn-group-lg>.btn, .btn-group-sm>.btn, .btn-group-xs>.btn, .btn-lg, .btn-sm, .btn-xs {
   border: 0;
   text-shadow: none;
   background-image: none;
   box-shadow: none;
   border-radius: 5px;
   transition: background-color 250ms ease, color 250ms ease;
-}
+}*/
 .inputfile+label.btn-primary {
   background-color: #1ebcb0;
 }
@@ -133,23 +109,13 @@ strong {
 #formset-container .form {
   padding: 0;
 }
-#content {
-  /* padding-left: 0; */
-  /* padding-right: 0; */
-}
-.field-container {
-  /* margin-left: -15px; */
-  /* margin-right: -15px; */
-}
 .field-container .form-group {
   padding-left: 0;
   padding-right: 0;
 }
-
 .row-position {
   padding-bottom: 24px;
 }
-
 .content .col-md-12 {
   margin-top: 0;
 }
@@ -157,20 +123,12 @@ strong {
 .content .tab-pane {
   padding: 0;
 }
-.tab-pane .row .section .section-header {
-  /* maybe just do this on the home page */
-  /* padding: 0; */
-  /* margin: 0; */
-}
-
 .form > .pull-right {
   margin-top: 20px;
 }
-
 .well {
   box-shadow: none;
   background: transparent;
-  /* border: 0; */
 }
 #formset-container .tab-content .row {
   margin-left: -15px !important;
@@ -193,18 +151,6 @@ strong {
   }
 }
 
-/*
-@media (min-width: 992px) {
-  .container-sm {
-      width: 840px;
-  }
-}
-@media (min-width: 1200px) {
-  .container-sm {
-      width: 960px;
-  }
-} */
-
 /* N A V */
 .navbar {
   min-height: 0;
@@ -226,7 +172,7 @@ strong {
   width: 100%;
   background-color: #fff;
   border: 0;
-  border-bottom: 1px solid #DBDBDB;
+  /* border-bottom: 1px solid #DBDBDB; */
   overflow-x: hidden;
   box-shadow: none;
   padding: 0;
@@ -324,9 +270,9 @@ strong {
 }
 
 /* T A B S */
-.nav-tabs > li > a {
-  /* border-bottom: 1px solid rgba(59, 59, 59); */
-}
+/* .nav-tabs > li > a {
+  border-bottom: 1px solid rgba(59, 59, 59);
+} */
 
 /* M E D I A */
 img {
@@ -338,6 +284,7 @@ img {
 
 /* H O M E P A G E */
 .hero {
+  background-color: #262525;
   background-image: url(https://rescuemyanimal-training.communityos.org/document-view/event/key/repositorydownloadajax/id/93/cid/615/fid/112);
   background-repeat: no-repeat;
   background-size: cover;
