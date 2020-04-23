@@ -36,6 +36,17 @@ strong {
   font-size: 20px;
   line-height: 1.5;
 }
+li {
+  margin-bottom: 16px;
+}
+#faqs ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+#faqs .question {
+  margin-bottom: 4px;
+}
 @media (min-width: 768px) {
   h1, .h1 {
     font-size: 36px;
