@@ -117,9 +117,6 @@ li {
 #formset-container .tab-content {
   margin-bottom: 0;
 }
-#formset-container .form {
-  padding: 0;
-}
 .field-container .form-group {
   padding-left: 0;
   padding-right: 0;
@@ -136,6 +133,9 @@ li {
 }
 .form > .pull-right {
   margin-top: 20px;
+}
+.form .bump-right {
+  margin-left: 0;
 }
 .well {
   box-shadow: none;
@@ -183,7 +183,7 @@ li {
   width: 100%;
   background-color: #fff;
   border: 0;
-  /* border-bottom: 1px solid #DBDBDB; */
+  border-bottom: 1px solid #DBDBDB;
   overflow-x: hidden;
   box-shadow: none;
   padding: 0;
@@ -272,7 +272,7 @@ li {
       margin-bottom: 20px;
   }
   .navbar-nav.navbar-right:last-child {
-      margin-right: 0;
+      margin-right: -10px;
   }
 }
 
@@ -331,7 +331,7 @@ img {
 /* H O M E P A G E */
 .hero {
   background-color: #262525;
-  background-image: url(https://rescuemyanimal-training.communityos.org/document-view/event/key/repositorydownloadajax/id/93/cid/615/fid/112);
+  background-image: url(/document-view/event/key/repositorydownloadajax/id/93/cid/615/fid/112);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
