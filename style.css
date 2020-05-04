@@ -272,7 +272,7 @@ li {
       margin-bottom: 20px;
   }
   .navbar-nav.navbar-right:last-child {
-      margin-right: -10px;
+      margin-right: 0;
   }
 }
 
@@ -372,6 +372,12 @@ img {
 }
 .highlight-bar--gray::before {
   background-color: #F6F6F6;
+}
+[data-id="7801"] .search-results-list-container {
+  text-align: center;
+}
+[data-id="7801"] .note {
+  display: none;
 }
 .step {
   margin-bottom: 20px;
