@@ -15,14 +15,20 @@ body {
   line-height: 1.625;
 }
 h1, .h1 {
-  font-family: NunitoSans-Black, sans-serif;
+  font-family: NunitoSans-Black, NunitoSans-Bold, sans-serif;
   font-size: 26px;
   line-height: 1.25;
   margin-bottom: 24px;
 }
 h2, .h2 {
-  font-family: NunitoSans-Black, sans-serif;
+  font-family: NunitoSans-Black, NunitoSans-Bold, sans-serif;
   font-size: 24px;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+h3, .h3 {
+  font-family: NunitoSans-Black, NunitoSans-Bold, sans-serif;
+  font-size: 22px;
   line-height: 1.25;
   margin-bottom: 20px;
 }
@@ -136,7 +142,9 @@ li {
   margin-top: 20px;
 }
 .form .bump-right {
+  display: block;
   margin-left: 0;
+  margin-bottom: 10px;
 }
 .well {
   box-shadow: none;
