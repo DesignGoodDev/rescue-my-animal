@@ -326,6 +326,18 @@ li {
   margin-bottom: 32px;
 }
 
+/* S E A R C H  R E S U L T S */
+.search-results-list-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.search-results-list-container .result-row {
+  margin-bottom: 32px;
+}
+.search-results-list-container .result-row:first-of-type {
+  margin-top: 32px;
+}
+
 /* M E D I A */
 img {
   max-width: 100%;
