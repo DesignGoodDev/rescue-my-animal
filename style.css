@@ -326,14 +326,17 @@ li {
 /* T A B S */
 .nav-tabs {
   border-bottom: 1px solid #ddd;
+  clear: both;
 }
 .nav-tabs .nav-tab.active a,
 .nav-tabs .nav-tab.active a:focus,
 .nav-tabs .nav-tab.active a:hover {
   border: 1px solid #ddd;
+  border-bottom-color: transparent;
 }
-.nav-tabs > li > a {
-  border-bottom: 1px solid rgba(59, 59, 59);
+.nav-tabs>li:not(.active)>a:hover {
+  border-bottom: 1px solid #ddd;
+  background-color: #eee;
 }
 
 /* F O R M S */
