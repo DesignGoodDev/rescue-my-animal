@@ -116,6 +116,7 @@ li {
 /* G L O B A L */
 #formset-container .tab-content {
   margin-bottom: 0;
+  clear: both;
 }
 .field-container .form-group {
   padding-left: 0;
@@ -328,15 +329,18 @@ li {
   border-bottom: 1px solid #ddd;
   clear: both;
 }
+.nav-tabs .nav-tab a {
+  transition: background-color 250ms ease, border 250ms ease;
+}
 .nav-tabs .nav-tab.active a,
 .nav-tabs .nav-tab.active a:focus,
 .nav-tabs .nav-tab.active a:hover {
   border: 1px solid #ddd;
   border-bottom-color: transparent;
 }
-.nav-tabs>li:not(.active)>a:hover {
+.nav-tabs > li:not(.active) > a:hover {
   border-bottom: 1px solid #ddd;
-  background-color: #eee;
+  background-color: #eee !important;
 }
 
 /* F O R M S */
@@ -347,6 +351,10 @@ li {
 }
 .tt-menu {
   border-radius: 4px;
+  cursor: pointer;
+}
+.tt-suggestion.tt-cursor, .tt-suggestion:hover {
+  background-color: #1ebcb0;
 }
 .reactableResult-wrapper {
   padding: 0;
