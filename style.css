@@ -79,8 +79,10 @@ li {
 .btn-large {
   padding: 18px 28px;
 }
-.btn.btn-danger.btn-xs {
+.btn.btn-xs {
   padding: 4px 10px;
+}
+.btn.btn-danger.btn-xs {
   margin-left: -15px;
 }
 .link--cta {
@@ -419,9 +421,6 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* margin-top: -20px; */
-  /* margin-left: -15px; */
-  /* margin-right: -15px; */
 }
 .row--offset-photo {
   border-top: 8px solid #FFC229;
@@ -506,4 +505,29 @@ img {
   .row--offset-photo .image-side {
     margin-top: -40px;
   }
+}
+
+/* A N I M A L  R E S C U E  M A N A G E */
+.content .col-md-12[data-id="7744"] {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.field-container.fsem {
+  padding-bottom: 16px;
+}
+.field-container.fsem > .action-column button {
+  background-image: none;
+  text-shadow: none;
+  background-color: #f44927;
+  padding: 4px 8px;
+  border: 0;
+}
+.field-container.fsem .glyphicon {
+  line-height: 20px;
+}
+.field-container.fsem .field-label {
+  margin-top: 10px;
+}
+div.file-list-edit {
+  margin-bottom: 10px;
 }
