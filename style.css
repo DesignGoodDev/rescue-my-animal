@@ -342,6 +342,16 @@ li {
   border-bottom: 1px solid #ddd;
   clear: both;
 }
+#form-datatools-container .nav-tabs {
+  border-bottom: 0;
+  margin-left: 0;
+}
+#form-datatools-container .tab-content .tab-pane {
+  background-color: #fff;
+}
+#form-datatools-container .nav-tabs > .nav-tab.active {
+  background-color: #e0e0e0;
+}
 .nav-tabs .nav-tab a {
   transition: background-color 250ms ease, border 250ms ease;
 }
