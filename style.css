@@ -322,8 +322,8 @@ li {
 } */
 
 /* F O R M S */
-.form-group {
-  margin-bottom: 32px;
+.form-group .field-label {
+  margin-top: 32px;
 }
 
 /* S E A R C H  R E S U L T S */
