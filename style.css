@@ -271,6 +271,7 @@ li {
       margin-top: 20px;
       margin-bottom: 20px;
   }
+  .navbar-form.navbar-right:last-child,
   .navbar-nav.navbar-right:last-child {
       margin-right: 0;
   }
@@ -319,6 +320,11 @@ li {
 /* .nav-tabs > li > a {
   border-bottom: 1px solid rgba(59, 59, 59);
 } */
+
+/* F O R M S */
+.form-group {
+  margin-bottom: 32px;
+}
 
 /* M E D I A */
 img {
