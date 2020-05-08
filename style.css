@@ -324,15 +324,29 @@ li {
 }
 
 /* T A B S */
-/* .nav-tabs > li > a {
+.nav-tabs {
+  border-bottom: 1px solid #ddd;
+}
+.nav-tabs .nav-tab.active a,
+.nav-tabs .nav-tab.active a:focus,
+.nav-tabs .nav-tab.active a:hover {
+  border: 1px solid #ddd;
+}
+.nav-tabs > li > a {
   border-bottom: 1px solid rgba(59, 59, 59);
-} */
+}
 
 /* F O R M S */
 .form-group .field-header .field-label {
   margin-top: 20px;
   margin-bottom: 8px;
   float: none;
+}
+.tt-menu {
+  border-radius: 4px;
+}
+.reactableResult-wrapper {
+  padding: 0;
 }
 
 /* S E A R C H  R E S U L T S */
