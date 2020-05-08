@@ -322,8 +322,10 @@ li {
 } */
 
 /* F O R M S */
-.form-group .field-label {
-  margin-top: 32px;
+.form-group .field-header .field-label {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  float: none;
 }
 
 /* S E A R C H  R E S U L T S */
