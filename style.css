@@ -352,6 +352,9 @@ li {
 #form-datatools-container .nav-tabs > .nav-tab.active {
   background-color: #e0e0e0;
 }
+#form-datatools-container .table > tbody > tr > td {
+  vertical-align: middle;
+}
 .nav-tabs .nav-tab a {
   transition: background-color 250ms ease, border 250ms ease;
 }
