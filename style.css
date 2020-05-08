@@ -230,6 +230,10 @@ li {
 .dropdown-menu {
   border: 1px solid #ccc;
   border-radius: 0;
+  padding: 0;
+}
+.dropdown-menu li {
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
@@ -275,11 +279,14 @@ li {
   .navbar-nav.navbar-right:last-child {
     margin-right: 0;
   }
+  .dropdown-menu > li > a {
+    padding: 10px 20px;
+  }
 }
 
 @media (min-width: 992px) {
   .navbar {
-      padding-right: 0;
+    padding-right: 0;
   }
 }
 
@@ -291,8 +298,8 @@ li {
   margin-bottom: -15px;
 }
 .footer ul {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 .footer li {
   margin-bottom: 10px;
