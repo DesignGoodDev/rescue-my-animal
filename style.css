@@ -350,9 +350,16 @@ li {
   border-bottom: 1px solid #ddd;
   clear: both;
 }
+#form-datatools-container {
+  margin-top: -40px;
+  margin-bottom: 40px;
+}
 #form-datatools-container .nav-tabs {
   border-bottom: 0;
   margin-left: 0;
+}
+#form-datatools-container .tab-content {
+  margin-top: 40px;
 }
 #form-datatools-container .tab-content .tab-pane {
   background-color: #fff;
@@ -388,9 +395,7 @@ li {
 .panel-body {
   border-radius: 4px;
 }
-#form-datatools-container {
-  margin-bottom: 40px;
-}
+
 
 /* F O R M S */
 .form-group .field-header .field-label {
