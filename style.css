@@ -388,6 +388,9 @@ li {
 .panel-body {
   border-radius: 4px;
 }
+#form-datatools-container {
+  margin-bottom: 40px;
+}
 
 /* F O R M S */
 .form-group .field-header .field-label {
