@@ -286,10 +286,6 @@ li {
   .nav.navbar-nav.top-nav li.active:hover {
     border-bottom: 5px solid #1EBCB0;
   }
-  /* .navbar-inverse .navbar-nav > li.active:hover a,
-  .navbar-inverse .navbar-nav > li:hover a {
-    color: #1EBCB0;
-  } */
   .navbar-inverse .navbar-nav > li > a {
     padding: 24px 0;
   }
@@ -395,7 +391,6 @@ li {
 .panel-body {
   border-radius: 4px;
 }
-
 
 /* F O R M S */
 .form-group .field-header .field-label {
