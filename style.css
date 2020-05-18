@@ -286,10 +286,10 @@ li {
   .nav.navbar-nav.top-nav li.active:hover {
     border-bottom: 5px solid #1EBCB0;
   }
-  .navbar-inverse .navbar-nav > li.active:hover a,
+  /* .navbar-inverse .navbar-nav > li.active:hover a,
   .navbar-inverse .navbar-nav > li:hover a {
     color: #1EBCB0;
-  }
+  } */
   .navbar-inverse .navbar-nav > li > a {
     padding: 24px 0;
   }
@@ -408,7 +408,7 @@ li {
   cursor: pointer;
 }
 .tt-suggestion.tt-cursor, .tt-suggestion:hover {
-  background-color: #1ebcb0;
+  background-color: #1ebcb088;
 }
 .reactableResult-wrapper {
   padding: 0;
