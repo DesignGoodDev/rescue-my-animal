@@ -358,11 +358,11 @@ li {
   border-bottom: 0;
   margin-left: 0;
 }
-#form-datatools-container .tab-content {
-  margin-top: 40px
-}
 #form-datatools-container .tab-content .tab-pane {
   background-color: #fff;
+}
+#form-datatools-container .tab-content .tab-pane.active {
+  margin-top: 40px;
 }
 #form-datatools-container .nav-tabs > .nav-tab.active {
   background-color: #e0e0e0;
