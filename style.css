@@ -151,6 +151,14 @@ li {
   margin-left: 0;
   margin-bottom: 10px;
 }
+.panel-default > .panel-heading {
+  background-image: none;
+  border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+.subsection-header .bump-right {
+  margin-bottom: 0;
+}
 .well {
   box-shadow: none;
   background: transparent;
@@ -367,6 +375,18 @@ li {
 .nav-tabs > li:not(.active) > a:hover {
   border-bottom: 1px solid #ddd;
   background-color: #eee !important;
+}
+.content .tab-pane.active {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.tab-pane .panel {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: none;
+}
+.panel-body {
+  border-radius: 4px;
 }
 
 /* F O R M S */
