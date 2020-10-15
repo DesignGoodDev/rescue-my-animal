@@ -215,8 +215,13 @@ li {
 }
 .navbar-brand {
   flex: 0 1 auto;
-  height: 54px;
-  width: 200px;
+  height: auto;
+  width: auto;
+}
+.navbar .navbar-brand .navbar-logo {
+  width: 136px !important;
+  height: auto !important;
+  max-height: none;
 }
 .navbar-form {
   margin: 0;
@@ -268,7 +273,10 @@ li {
     display: table;
   }
   .navbar .navbar-brand {
-    margin-top: 8px;
+    /* margin-top: 8px; */
+    margin-top: 0;
+    margin-left: 15px;
+    padding: 0;
   }
   .navbar-collapse.collapse {
     position: static;
